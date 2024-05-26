@@ -1,0 +1,42 @@
+.services-buttons {
+    display: table-row;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .part1, .part2 {
+    display: table-row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    left: auto;
+    
+  }
+  
+  .text-wrappery{
+    margin: 5px;
+    padding: 30px 50px; /* Increased padding for larger boxes */
+    width: 300px;
+    border: 2px solid #00b207;
+    border-radius: 8px; /* Increased border-radius for smoother edges */
+    background-color: #00b207;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .text-wrappery :hover{
+    background-color: #008e05;
+  }
+
+  .text-wrappery a{
+    color: #fff; /* Set hyperlink color to white */
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    font-size: 18px; /* Increase font size */
+    font-weight: 500; /* Add some weight to the font */
+    text-decoration: none; /* Eliminate underlines */
+  }
+  
+ 

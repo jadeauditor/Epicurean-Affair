@@ -1,0 +1,246 @@
+
+.login {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 24px 32px;
+  position: relative;
+  background-color: var(--gray-scalewhite);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--gray-scalegray-50);
+
+}
+
+.login .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading-05-heading-05-600-font-family);
+  font-weight: var(--heading-05-heading-05-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size: var(--heading-05-heading-05-600-font-size);
+  letter-spacing: var(--heading-05-heading-05-600-letter-spacing);
+  line-height: var(--heading-05-heading-05-600-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-05-heading-05-600-font-style);
+}
+
+.login .field {
+  gap: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .div {
+  gap: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .input-field {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--gray-scalegray-100);
+  width: 440px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-400);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.login .input-field-2 {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--gray-scalegray-100);
+}
+
+.login .label {
+  position: relative;
+  width: 420px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-400);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.login .eye-open {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.login .links {
+  display: flex;
+  width: 472px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .remember {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .checkbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: var(--gray-scalewhite);
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--gray-scalegray-200);
+}
+
+.login .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-small-body-small-400-font-family);
+  font-weight: var(--body-small-body-small-400-font-weight);
+  color: var(--gray-scalegray-600);
+  font-size: var(--body-small-body-small-400-font-size);
+  letter-spacing: var(--body-small-body-small-400-letter-spacing);
+  line-height: var(--body-small-body-small-400-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-body-small-400-font-style);
+}
+
+.login .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 472px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--brandingsuccess);
+  border-radius: 43px;
+}
+#buttn{
+  background-color: var(--brandingsuccess);
+  color: var(--gray-scalewhite);
+  border: none;
+  padding-left: 69px;
+  padding-right: 69px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:30px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 1s, color 1s;
+ }
+ #buttn:hover{
+  opacity: 0.7;
+  background-color: var(--brandingsuc);
+  color: var( --gray-scalewhite);
+ }
+ #buttn:active{
+  opacity: 0.2;
+ }
+
+.login {
+  position: relative;
+  margin: 50px 30%;
+  width: fit-content;
+  text-align: center;
+  font-family: var(--body-small-body-small-600-font-family);
+  font-weight: var(--body-small-body-small-600-font-weight);
+  color: var(--gray-scalewhite);
+  font-size: var(--body-small-body-small-600-font-size);
+  letter-spacing: var(--body-small-body-small-600-letter-spacing);
+  line-height: var(--body-small-body-small-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-body-small-600-font-style);
+
+}
+.normal {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: var(--body-small-body-small-600-font-family);
+  font-weight: var(--body-small-body-small-600-font-weight);
+
+  font-size: var(--body-small-body-small-600-font-size);
+  letter-spacing: var(--body-small-body-small-600-letter-spacing);
+  line-height: var(--body-small-body-small-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-body-small-600-font-style);
+
+
+}
+
+.login .don-t-have-account {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 4px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.login .register {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-small-body-small-500-font-family);
+  font-weight: var(--body-small-body-small-500-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size: var(--body-small-body-small-500-font-size);
+  letter-spacing: var(--body-small-body-small-500-letter-spacing);
+  line-height: var(--body-small-body-small-500-line-height);
+  white-space: nowrap;
+  font-style: var(--body-small-body-small-500-font-style);
+
+}
+
+#rememberme {
+  display: flex;
+  align-items: center;
+}
+
+#chk {
+  /* Adjust size of the checkbox */
+  transform: scale(1.5); /* Change scale factor as needed */
+  margin-top: 0; /* Reset margin */
+  vertical-align: middle; /* Align checkbox vertically */
+}
+
+#forgetpass:hover, #regis:hover{
+  color: blue; /* Change color when hovered */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.button {
+    all: unset;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 32px;
+    top: 526px;
+    left: 225px;
+    background-color: #00B207;
+    border-radius: 43px;
+    color: white;
+}
+
+.container h1 {
+    color: #343a40;
+}
+
+.container p {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}

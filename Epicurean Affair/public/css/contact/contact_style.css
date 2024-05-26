@@ -1,0 +1,470 @@
+.contact-info {
+    padding: 0px 20px;
+    display: table-row-group;
+  }
+  
+.div-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0px;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    top: 50px;
+    width: 100%;
+    max-width: 280px;
+    min-width: 280px;
+    height: 220px;
+    background-color:var(--gray-scalewhite);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img {
+    width: 51px;
+    height: 51px;
+    color: var(--brandingsuccess);
+}
+
+.text-wrapper-14 {
+    width: 272px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--gray-scalegray-800);
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27.2px;
+}
+
+.a{
+  color: var(--gray-scalegray-900);
+}
+.a:hover{
+  color: blue; /* Change color when hovered */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.devider {
+  width: 242px;
+  height: 1px;
+  object-fit: cover;
+  left: -518px;
+  top:50px;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background-color: rgb(12, 248, 12);
+  /* background: linear-gradient(90deg,var( --brandingsuccess) 0%, var( --gray-scalewhite) 40%, var(--brandingsuccess-dark) 60%); */
+  /* background: linear-gradient(90deg, #FF7E7E 0%, #FF4848 40%, rgba(0, 0, 0, 0.28) 60%); */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.div-7:hover {
+  height: 245px;
+}
+
+.div-7:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.div-7:hover .icon i {
+  background: linear-gradient(90deg, #FF7E7E, #FF4848);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+
+/*End First Phhase*/
+
+.layer1{
+  display: flex;
+  margin-top: 20px;
+}
+
+/*Second Phhase*/
+  
+.just-say-hello {
+  width: 988px;
+  height: 800px;
+  top: 62px;
+  left: 350px;
+}
+
+.overlap-3 {
+  width: 984px;
+  height: 804px;
+  background-color: var(--gray-scalewhite);
+  border-radius: 8px;
+  box-shadow: 0px 0px 56px #00260214;
+  position: relative;
+}
+
+.text-wrapper-label {
+  position: relative;
+  top: 175px;
+  left: 50px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.text-wrapper-label-2 {
+  position: absolute;
+  top: 175px;
+  left: 500px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.text-wrapper-label-3 {
+  position: absolute;
+  top: 275px;
+  left: 50px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.text-wrapper-label-4 {
+  position: absolute;
+  top: 275px;
+  left: 500px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.text-wrapper-label-5 {
+  position: absolute;
+  top: 375px;
+  left: 50px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.text-wrapper-label-6 {
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size:18px;
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.filled-gmail-com-1 {
+  width: 434px;
+  height: 49px;
+  top: 204px;
+  left: 50px;
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.filled-gmail-com {
+  width: 434px;
+  height: 49px;
+  top: 204px;
+  left: 500px;
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.filled-gmail-com-3{
+  width: 434px;
+  height: 49px;
+  top: 304px;
+  left: 50px;
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.filled-gmail-com-4{
+
+  width: 434px;
+  height: 49px;
+  top: 304px;
+  left: 500px;
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.typ-wrapper {
+  width: 884px;
+  height: 49px;
+  top: 405px;
+  left: 50px;
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.mess-wrapper {
+  width: 884px;
+  height: 200px;
+  top: 500px;
+  left: 50px;
+  
+  border-color: var(--gray-scalegray-100);
+  position: absolute;
+  background-color: var(--gray-scalewhite);
+  border-radius: 6px;
+  border: 1px solid;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--gray-scalegray-600);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.text-wrapper-13 {
+  position: absolute;
+  top: 44px;
+  left: 50px;
+  font-family: var(--body-XXL-body-XXL-600-font-family);
+  font-weight: var(--body-XXL-body-XXL-600-font-weight);
+  color: var(--gray-scalegray-900);
+  font-size: var(--body-XXL-body-XXL-600-font-size);
+  letter-spacing: var(--body-XXL-body-XXL-600-letter-spacing);
+  line-height: var(--body-XXL-body-XXL-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XXL-body-XXL-600-font-style);
+}
+
+.normal-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  top: 726px;
+  left: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 40px;
+  position: absolute;
+  background-color: var(--brandingsuccess);
+  border-radius: 43px;
+}
+
+.normal {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: var(--body-medium-body-medium-600-font-family);
+  font-weight: var(--body-medium-body-medium-600-font-weight);
+  color: var( --gray-scalewhite);
+  font-size: var(--body-medium-body-medium-600-font-size);
+  letter-spacing: var(--body-medium-body-medium-600-letter-spacing);
+  line-height: var(--body-medium-body-medium-600-line-height);
+  white-space: nowrap;
+  font-style: var(--body-medium-body-medium-600-font-style);
+}
+
+.text-wrapper-12 {
+  position: absolute;
+  top: 88px;
+  left: 50px;
+  font-family: var(--body-small-body-small-400-font-family);
+  font-weight: var(--body-small-body-small-400-font-weight);
+  color: var(--gray-scalegray-500);
+  font-size: var(--body-small-body-small-400-font-size);
+  letter-spacing: var(--body-small-body-small-400-letter-spacing);
+  line-height: var(--body-small-body-small-400-line-height);
+  font-style: var(--body-small-body-small-400-font-style);
+}
+
+#buttn{
+  background-color: var(--brandingsuccess);
+  color: var(--gray-scalewhite);
+  border: none;
+  padding-left: 69px;
+  padding-right: 69px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 1s, color 1s;
+ }
+ #buttn:hover{
+  opacity: 0.7;
+  background-color: var(--brandingsuc);
+  color: var( --gray-scalewhite);
+ }
+ #buttn:active{
+  opacity: 0.2;
+ }
+
+/*Third Phase MAP*/
+
+.map-image {
+  width: 1300px;
+  height: 450px;
+  top: 968px;
+  left: 25px;
+  object-fit: cover;
+  box-shadow: 0px 5px 56px #00260214;
+  border-radius: 10px;
+}
+
+.layer2{
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+  
+
+
+
+
+  /* 2nd section */

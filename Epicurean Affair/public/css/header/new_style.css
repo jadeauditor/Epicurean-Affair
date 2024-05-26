@@ -1,0 +1,219 @@
+.headery {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+
+}
+
+.headery .categories {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 231px;
+    left: 0;
+    background-color: var(--gray-scalewhite);
+    border: 1px solid;
+    border-color: var(--gray-scalegray-100);
+    margin-left: 10px;
+    padding: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    width: 320px;
+
+
+}
+
+.headery .navigation {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--gray-scalewhite);
+    width: 100%;
+}
+
+.headery .small-one {
+    display: flex;
+    height:  50px;
+    width: 1320px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--gray-scalewhite);
+    box-shadow: 0px 1px 0px #e5e5e5;
+}
+
+.headery .div-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+
+}
+
+.headery .map-pin {
+    margin: 10px;
+    position: relative;
+    width: 15.5px;
+    height: 19px;
+    margin-top: -0.5px;
+    margin-bottom: -0.5px;
+}
+
+.headery .store-location {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    font-family: var(--body-tiny-body-tiny-400-font-family);
+    font-weight: var(--body-tiny-body-tiny-400-font-weight);
+    color: var(--gray-scalegray-500);
+    font-size: var(--body-tiny-body-tiny-400-font-size);
+    letter-spacing: var(--body-tiny-body-tiny-400-letter-spacing);
+    line-height: var(--body-tiny-body-tiny-400-line-height);
+    white-space: nowrap;
+    font-style: var(--body-tiny-body-tiny-400-font-style);
+}
+
+.headery .links {
+    gap: 20px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.headery .div-4 {
+    gap: 6px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.headery .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-tiny-body-tiny-400-font-family);
+    font-weight: var(--body-tiny-body-tiny-400-font-weight);
+    color: var(--gray-scalegray-500);
+    font-size: var(--body-tiny-body-tiny-400-font-size);
+    text-align: center;
+    letter-spacing: var(--body-tiny-body-tiny-400-letter-spacing);
+    line-height: var(--body-tiny-body-tiny-400-line-height);
+    white-space: nowrap;
+    font-style: var(--body-tiny-body-tiny-400-font-style);
+}
+
+.headery .group {
+    width: 8px;
+    margin-right: -0.5px;
+    position: relative;
+    height: 4.5px;
+}
+
+.headery .group-2 {
+    width: 7.5px;
+    position: relative;
+    height: 4.5px;
+}
+
+.headery .midle {
+    display: flex;
+    width: 1320px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    margin: auto;
+    height: 70px;
+}
+
+.headery .img-3 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+#epicurean-logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.headery .ecobazar {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: var(--gren-gray-scale900);
+    font-size: 32px;
+    letter-spacing: -0.96px;
+    line-height: 38px;
+    white-space: nowrap;
+}
+
+
+.headery .div-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.headery .phonecall {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.headery .info-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.headery .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-small-body-small-400-font-family);
+    font-weight: var(--body-small-body-small-400-font-weight);
+    color: var(--gray-scalegray-400);
+    font-size: var(--body-small-body-small-400-font-size);
+    letter-spacing: var(--body-small-body-small-400-letter-spacing);
+    line-height: var(--body-small-body-small-400-line-height);
+    white-space: nowrap;
+    font-style: var(--body-small-body-small-400-font-style);
+}
+
+.headery .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-XL-body-XL-500-font-family);
+    font-weight: var(--body-XL-body-XL-500-font-weight);
+    color: var(--gray-scalegray-900);
+    font-size: var(--body-XL-body-XL-500-font-size);
+    letter-spacing: var(--body-XL-body-XL-500-letter-spacing);
+    line-height: var(--body-XL-body-XL-500-line-height);
+    white-space: nowrap;
+    font-style: var(--body-XL-body-XL-500-font-style);
+}
+
+.imgy{
+    height: 50px;
+}
+
+
